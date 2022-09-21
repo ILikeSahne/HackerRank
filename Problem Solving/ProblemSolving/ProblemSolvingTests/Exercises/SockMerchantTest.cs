@@ -14,7 +14,7 @@ namespace ProblemSolvingTests.Exercises
 
             var result = _sockMerchantExercise.SockMerchant(socks.Count, socks);
 
-            Assert.AreEqual(result, 3);
+            Assert.AreEqual(3, result);
         }
 
         [TestMethod]
@@ -24,7 +24,7 @@ namespace ProblemSolvingTests.Exercises
 
             var result = _sockMerchantExercise.SockMerchant(socks.Count, socks);
 
-            Assert.AreEqual(result, 4);
+            Assert.AreEqual(4, result);
         }
 
         private List<int> Parse(string s)

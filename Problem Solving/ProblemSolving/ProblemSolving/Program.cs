@@ -11,7 +11,7 @@ namespace ProblemSolving
     {
         public static void Main(string[] args)
         {
-            new SockMerchantExercise().Run();
+            new DrawingBookExercise().Run();
             Console.ReadLine();
         }
     }
