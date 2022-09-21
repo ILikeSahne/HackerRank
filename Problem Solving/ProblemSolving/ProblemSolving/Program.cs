@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ProblemSolving.Exercises;
 
 namespace ProblemSolving
 {
-    internal class Program
+    public class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            new SockMerchantExercise().Run();
             Console.ReadLine();
         }
     }
