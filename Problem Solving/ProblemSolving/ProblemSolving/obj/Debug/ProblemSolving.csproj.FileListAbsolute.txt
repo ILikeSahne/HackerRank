@@ -1,8 +1,0 @@
-C:\Projects\HackerRank\Problem Solving\ProblemSolving\ProblemSolving\bin\Debug\ProblemSolving.exe.config
-C:\Projects\HackerRank\Problem Solving\ProblemSolving\ProblemSolving\bin\Debug\ProblemSolving.exe
-C:\Projects\HackerRank\Problem Solving\ProblemSolving\ProblemSolving\bin\Debug\ProblemSolving.pdb
-C:\Projects\HackerRank\Problem Solving\ProblemSolving\ProblemSolving\obj\Debug\ProblemSolving.csproj.AssemblyReference.cache
-C:\Projects\HackerRank\Problem Solving\ProblemSolving\ProblemSolving\obj\Debug\ProblemSolving.csproj.SuggestedBindingRedirects.cache
-C:\Projects\HackerRank\Problem Solving\ProblemSolving\ProblemSolving\obj\Debug\ProblemSolving.csproj.CoreCompileInputs.cache
-C:\Projects\HackerRank\Problem Solving\ProblemSolving\ProblemSolving\obj\Debug\ProblemSolving.exe
-C:\Projects\HackerRank\Problem Solving\ProblemSolving\ProblemSolving\obj\Debug\ProblemSolving.pdb
