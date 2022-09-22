@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exercise.cs" />
+    <Compile Include="Exercises\CatsAndAMouseExercise.cs" />
     <Compile Include="Exercises\CountingValleysExercise.cs" />
     <Compile Include="Exercises\DrawingBookExercise.cs" />
     <Compile Include="Exercises\SockMerchantExercise.cs" />
