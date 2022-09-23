@@ -47,6 +47,7 @@
     <Compile Include="Exercises\CatsAndAMouseExercise.cs" />
     <Compile Include="Exercises\CountingValleysExercise.cs" />
     <Compile Include="Exercises\DrawingBookExercise.cs" />
+    <Compile Include="Exercises\FormingAMagicSquareExercise.cs" />
     <Compile Include="Exercises\SockMerchantExercise.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

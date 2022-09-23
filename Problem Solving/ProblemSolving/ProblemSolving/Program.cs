@@ -11,7 +11,7 @@ namespace ProblemSolving
     {
         public static void Main(string[] args)
         {
-            new CatsAndAMouseExercise().Run();
+            new FormingAMagicSquareExercise().Run();
             Console.ReadLine();
         }
     }
