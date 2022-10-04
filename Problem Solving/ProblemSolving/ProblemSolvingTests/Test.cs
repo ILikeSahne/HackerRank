@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProblemSolving
+namespace ProblemSolvingTests
 {
-    public class Exercise
+    public class Test
     {
-        public virtual void Run()
-        { }
-
         protected List<List<int>> ParseSquare(string s)
         {
             var lines = s.Split('\n');

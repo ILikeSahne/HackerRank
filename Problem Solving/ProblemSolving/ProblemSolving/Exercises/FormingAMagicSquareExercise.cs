@@ -21,7 +21,7 @@ namespace ProblemSolving.Exercises
 
         public override void Run()
         {
-            var input = Parse("4 9 2\r\n3 5 7\r\n8 1 5");
+            var input = ParseSquare("4 9 2\r\n3 5 7\r\n8 1 5");
 
             var answer = FormingMagicSquare(input);
             Console.WriteLine(answer);
@@ -48,12 +48,6 @@ namespace ProblemSolving.Exercises
         private int GetDistance(List<int> s, List<int> magicSquare)
         {
             return s.Select((t, i) => Math.Abs(t - magicSquare[i])).Sum();
-        }
-
-        private List<List<int>> Parse(string s)
-        {
-            var lines = s.Split('\n');
-            return lines.Select(line => line.Split(' ').Select(int.Parse).ToList()).ToList();
         }
     }
 }

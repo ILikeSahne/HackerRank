@@ -12,7 +12,7 @@ namespace ProblemSolving.Exercises
     {
         public override void Run()
         {
-            var a = Parse("4 6 5 3 3 1");
+            var a = ParseIntList("4 6 5 3 3 1");
             var result = PickingNumbers(a);
             Console.WriteLine(result);
         }
@@ -42,11 +42,6 @@ namespace ProblemSolving.Exercises
         private int Count(List<int> a, int num)
         {
             return a.Count(x => x == num || x == num + 1);
-        }
-
-        private List<int> Parse(string input)
-        {
-            return input.Split().Select(int.Parse).ToList();
         }
     }
 }

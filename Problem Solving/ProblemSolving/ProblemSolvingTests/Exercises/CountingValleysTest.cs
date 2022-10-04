@@ -3,7 +3,7 @@ using ProblemSolving.Exercises;
 namespace ProblemSolvingTests.Exercises
 {
     [TestClass]
-    public class CountingValleysTest
+    public class CountingValleysTest : Test
     {
         private readonly CountingValleysExercise _countingValleysExercise = new CountingValleysExercise();
 

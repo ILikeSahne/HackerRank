@@ -3,7 +3,7 @@ using ProblemSolving.Exercises;
 namespace ProblemSolvingTests.Exercises
 {
     [TestClass]
-    public class DrawingBookTest
+    public class DrawingBookTest : Test
     {
         private readonly DrawingBookExercise _drawingBookExercise = new DrawingBookExercise();
 

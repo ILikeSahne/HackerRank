@@ -10,10 +10,8 @@ namespace ProblemSolving.Exercises
     {
         public override void Run()
         {
-            var answer = SockMerchant(9, new List<int>
-            {
-                10, 20, 20, 10, 10, 30, 50, 10, 20
-            });
+            var input = ParseIntList("10 20 20 10 10 30 50 10 20");
+            var answer = SockMerchant(9, input);
             Console.WriteLine(answer);
         }
 
