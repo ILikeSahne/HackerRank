@@ -46,10 +46,7 @@ namespace ProblemSolving.Exercises
 
         private List<int> Parse(string input)
         {
-            var a = new List<int>();
-            foreach (var num in input.Split())
-                a.Add(int.Parse(num));
-            return a;
+            return input.Split().Select(int.Parse).ToList();
         }
     }
 }
