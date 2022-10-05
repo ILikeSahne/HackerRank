@@ -5,7 +5,7 @@ namespace ProblemSolvingTests.Exercises
     [TestClass]
     public class SockMerchantTest : Test
     {
-        private readonly SockMerchantExercise _sockMerchantExercise = new SockMerchantExercise();
+        private readonly SockMerchantExercise _sockMerchantExercise = new();
 
         [TestMethod]
         public void TestMethod1()
