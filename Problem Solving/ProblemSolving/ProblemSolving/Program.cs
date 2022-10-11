@@ -7,7 +7,7 @@ namespace ProblemSolving
     {
         public static void Main(string[] args)
         {
-            new UtopianTreeExercise().Run();
+            new AngryProfessorExercise().Run();
             Console.ReadLine();
         }
     }
