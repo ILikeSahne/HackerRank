@@ -1,0 +1,12 @@
+﻿<Application x:Class="ExerciseGenerator.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ExerciseGenerator"
+             xmlns:viewModels="clr-namespace:ExerciseGenerator.ViewModels"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         <ResourceDictionary>
+            <viewModels:MainVm x:Key="MainViewModel"/>
+         </ResourceDictionary>
+    </Application.Resources>
+</Application>
