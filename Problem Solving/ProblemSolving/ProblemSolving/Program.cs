@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 using ProblemSolving.Exercises;
 
 namespace ProblemSolving
@@ -11,7 +7,7 @@ namespace ProblemSolving
     {
         public static void Main(string[] args)
         {
-            new DesignerPDFViewerExercise().Run();
+            new UtopianTreeExercise().Run();
             Console.ReadLine();
         }
     }

@@ -52,6 +52,7 @@
     <Compile Include="Exercises\DesignerPDFViewerExercise.cs" />
     <Compile Include="Exercises\TheHurdleRaceExercise.cs" />
     <Compile Include="Exercises\SockMerchantExercise.cs" />
+    <Compile Include="Exercises\UtopianTreeExercise.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
