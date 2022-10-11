@@ -11,7 +11,7 @@ namespace ProblemSolving
     {
         public static void Main(string[] args)
         {
-            new TheHurdleRaceExercise().Run();
+            new DesignerPDFViewerExercise().Run();
             Console.ReadLine();
         }
     }

@@ -49,6 +49,7 @@
     <Compile Include="Exercises\DrawingBookExercise.cs" />
     <Compile Include="Exercises\FormingAMagicSquareExercise.cs" />
     <Compile Include="Exercises\PickingNumbersExercise.cs" />
+    <Compile Include="Exercises\DesignerPDFViewerExercise.cs" />
     <Compile Include="Exercises\TheHurdleRaceExercise.cs" />
     <Compile Include="Exercises\SockMerchantExercise.cs" />
     <Compile Include="Program.cs" />
