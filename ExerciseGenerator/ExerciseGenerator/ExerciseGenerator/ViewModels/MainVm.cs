@@ -134,16 +134,16 @@ namespace ProblemSolving.Exercises
             Console.WriteLine(answer);
         }
 
-        public string Solve()
+        public int Solve()
         {
             return 0;
         }
     }
 }";
 
-        public static readonly string TestCode = @"using ProblemSolving.Tests;
+        public static readonly string TestCode = @"using ProblemSolving.Exercises;
 
-namespace ProblemSolvingTests.Exercises
+namespace ProblemSolvingTests.Tests
 {
     [TestClass]
     public class {NAME}Test : Test

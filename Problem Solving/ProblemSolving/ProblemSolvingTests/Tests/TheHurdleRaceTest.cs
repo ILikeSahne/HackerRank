@@ -1,6 +1,6 @@
 using ProblemSolving.Exercises;
 
-namespace ProblemSolvingTests.Exercises
+namespace ProblemSolvingTests.Tests
 {
     [TestClass]
     public class TheHurdleRaceTest : Test
