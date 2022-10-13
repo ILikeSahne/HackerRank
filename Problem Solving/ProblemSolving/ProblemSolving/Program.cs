@@ -7,7 +7,7 @@ namespace ProblemSolving
     {
         public static void Main(string[] args)
         {
-            new AngryProfessorExercise().Run();
+            new SaveThePrisonerExercise().Run();
             Console.ReadLine();
         }
     }
