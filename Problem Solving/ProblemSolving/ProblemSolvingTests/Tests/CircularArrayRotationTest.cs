@@ -13,10 +13,7 @@ namespace ProblemSolvingTests.Tests
             var result = _circularArrayRotationExercise.Solve(ParseIntList("1 2 3"), 2, ParseIntList("0 1 2"));
 
             var expected = ParseIntList("2 3 1");
-            for (var i = 0; i < result.Count; i++)
-            {
-                Assert.AreEqual(expected[i], result[i]);
-            }
+            AssertList(expected, result);
         }
 
         [TestMethod]
@@ -25,10 +22,7 @@ namespace ProblemSolvingTests.Tests
             var result = _circularArrayRotationExercise.Solve(ParseIntList("3 4 5"), 2, ParseIntList("1 2"));
 
             var expected = ParseIntList("5 3");
-            for (var i = 0; i < result.Count; i++)
-            {
-                Assert.AreEqual(expected[i], result[i]);
-            }
+            AssertList(expected, result);
         }
 
         [TestMethod]
@@ -40,10 +34,8 @@ namespace ProblemSolvingTests.Tests
 
             const string expectedString = "72722 90286 44792 65142 53682 69161 97555 38902 6169 54260 33581 98320 87674 72940 60906 38902 49288 45786 70429 53682 72722 16667 96271 87674 53682 36183 96271 66642 6169 16667 17144 54260 65142 97555 77633 88185 39356 44792 90286 56835 13597 36183 87674 45786 17144 39356 66190 69277 38902 36183 43856 23312 38902 65142 5499 37221 32032 23312 13597 87496 36183 49288 4912 32032 72722 16667 80399 97555 24523 43958 75662 69161 66642 69161 72940 87674 43958 43958 90286 26849 66642 60906 66599 69277 44792 72722 56835 65142 87496 72722 97555 23941 72940 66599 96271 66642 17144 88185 24523 96271";
             var expected = ParseIntList(expectedString);
-            for (var i = 0; i < result.Count; i++)
-            {
-                Assert.AreEqual(expected[i], result[i]);
-            }
+
+            AssertList(expected, result);
         }
     }
 }

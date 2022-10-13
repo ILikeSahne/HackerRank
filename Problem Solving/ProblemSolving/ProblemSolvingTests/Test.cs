@@ -18,5 +18,15 @@ namespace ProblemSolvingTests
         {
             return input.Split().Select(int.Parse).ToList();
         }
+
+        protected void AssertList<T>(List<T> expected, List<T> actual)
+        {
+            Assert.AreEqual(expected.Count, actual.Count);
+
+            for(var i = 0; i < expected.Count; i++)
+            {
+                Assert.AreEqual(expected[i], actual[i]);
+            }
+        }
     }
 }

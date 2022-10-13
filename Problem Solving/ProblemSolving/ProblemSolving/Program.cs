@@ -7,7 +7,7 @@ namespace ProblemSolving
     {
         public static void Main(string[] args)
         {
-            new CircularArrayRotationExercise().Run();
+            new SequenceEquationExercise().Run();
             Console.ReadLine();
         }
     }
