@@ -47,6 +47,7 @@
     <Compile Include="Exercises\AngryProfessorExercise.cs" />
     <Compile Include="Exercises\BeautifulDaysAtTheMoviesExercise.cs" />
     <Compile Include="Exercises\CatsAndAMouseExercise.cs" />
+    <Compile Include="Exercises\CircularArrayRotationExercise.cs" />
     <Compile Include="Exercises\CountingValleysExercise.cs" />
     <Compile Include="Exercises\DrawingBookExercise.cs" />
     <Compile Include="Exercises\FormingAMagicSquareExercise.cs" />
