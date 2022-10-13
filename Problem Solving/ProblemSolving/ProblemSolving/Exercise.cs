@@ -22,6 +22,11 @@ namespace ProblemSolving
             return input.Split().Select(int.Parse).ToList();
         }
 
+        protected int[] ParseIntArray(string input)
+        {
+            return input.Split().Select(int.Parse).ToArray();
+        }
+
         protected void PrintList<T>(List<T> list)
         {
             list.ForEach(x => Console.WriteLine(x.ToString()));

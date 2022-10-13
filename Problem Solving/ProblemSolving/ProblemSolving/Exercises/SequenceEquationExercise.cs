@@ -23,7 +23,7 @@ namespace ProblemSolving.Exercises
             {
                 var num = p[i] - min;
                 num = p[num] - min;
-                values[num] = i + min;
+                values[num] = i + min;  
             }
 
             return values.ToList();

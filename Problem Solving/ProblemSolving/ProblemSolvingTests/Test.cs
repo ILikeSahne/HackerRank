@@ -19,6 +19,11 @@ namespace ProblemSolvingTests
             return input.Split().Select(int.Parse).ToList();
         }
 
+        protected int[] ParseIntArray(string input)
+        {
+            return input.Split().Select(int.Parse).ToArray();
+        }
+
         protected void AssertList<T>(List<T> expected, List<T> actual)
         {
             Assert.AreEqual(expected.Count, actual.Count);
