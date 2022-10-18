@@ -7,7 +7,7 @@ namespace ProblemSolving
     {
         public static void Main(string[] args)
         {
-            new FindDigitsExercise().Run();
+            new AppendAndDeleteExercise().Run();
             Console.ReadLine();
         }
     }

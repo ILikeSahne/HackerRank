@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Exercise.cs" />
     <Compile Include="Exercises\AngryProfessorExercise.cs" />
+    <Compile Include="Exercises\AppendAndDeleteExercise.cs" />
     <Compile Include="Exercises\BeautifulDaysAtTheMoviesExercise.cs" />
     <Compile Include="Exercises\CatsAndAMouseExercise.cs" />
     <Compile Include="Exercises\CircularArrayRotationExercise.cs" />
