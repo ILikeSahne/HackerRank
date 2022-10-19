@@ -7,7 +7,7 @@ namespace ProblemSolving
     {
         public static void Main(string[] args)
         {
-            new AppendAndDeleteExercise().Run();
+            new SherlockAndSquaresExercise().Run();
             Console.ReadLine();
         }
     }
