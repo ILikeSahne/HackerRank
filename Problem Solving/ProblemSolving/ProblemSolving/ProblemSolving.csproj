@@ -50,6 +50,7 @@
     <Compile Include="Exercises\CatsAndAMouseExercise.cs" />
     <Compile Include="Exercises\CircularArrayRotationExercise.cs" />
     <Compile Include="Exercises\CountingValleysExercise.cs" />
+    <Compile Include="Exercises\CutTheSticksExercise.cs" />
     <Compile Include="Exercises\DrawingBookExercise.cs" />
     <Compile Include="Exercises\FindDigitsExercise.cs" />
     <Compile Include="Exercises\FormingAMagicSquareExercise.cs" />

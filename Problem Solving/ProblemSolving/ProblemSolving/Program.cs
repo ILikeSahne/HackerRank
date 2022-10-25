@@ -7,7 +7,7 @@ namespace ProblemSolving
     {
         public static void Main(string[] args)
         {
-            new LibraryFineExercise().Run();
+            new CutTheSticksExercise().Run();
             Console.ReadLine();
         }
     }
