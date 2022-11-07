@@ -56,6 +56,7 @@
     <Compile Include="Exercises\FormingAMagicSquareExercise.cs" />
     <Compile Include="Exercises\JumpingOnTheCloudsExercise.cs" />
     <Compile Include="Exercises\LibraryFineExercise.cs" />
+    <Compile Include="Exercises\NonDivisibleSubsetExercise.cs" />
     <Compile Include="Exercises\PickingNumbersExercise.cs" />
     <Compile Include="Exercises\DesignerPDFViewerExercise.cs" />
     <Compile Include="Exercises\SaveThePrisonerExercise.cs" />

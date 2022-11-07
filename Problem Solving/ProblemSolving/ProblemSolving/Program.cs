@@ -7,7 +7,7 @@ namespace ProblemSolving
     {
         public static void Main(string[] args)
         {
-            new CutTheSticksExercise().Run();
+            new NonDivisibleSubsetExercise().Run();
             Console.ReadLine();
         }
     }
