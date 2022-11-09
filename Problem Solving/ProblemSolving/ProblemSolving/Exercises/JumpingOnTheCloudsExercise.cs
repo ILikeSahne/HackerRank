@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace ProblemSolving.Exercises
 {
@@ -6,25 +7,27 @@ namespace ProblemSolving.Exercises
     {
         public override void Run()
         {
-            var answer = Solve(ParseIntArray("0 0 1 0"), 2);
+            var answer = Solve(ParseIntList("0 0 1 0 0 1 0"));
             Console.WriteLine(answer);
         }
 
-        public int Solve(int[] c, int k)
+        public int Solve(List<int> clouds)
         {
-            var energy = 100;
-            for (var i = 0;;)
+            var pos = 0;
+            var steps = 0;
+            while (pos < clouds.Count - 1)
             {
-                i += k;
-                var pos = i % c.Length;
-
-                energy--;
-                if (c[pos] == 1)
-                    energy -= 2;
-
-                if (pos == 0)
-                    return energy;
+                steps++;
+                if (pos + 2 < clouds.Count) {
+                    if (clouds[pos + 2] == 0)
+                    {
+                        pos += 2;
+                        continue;
+                    }
+                }
+                pos++;
             }
+            return steps;
         }
     }
 }

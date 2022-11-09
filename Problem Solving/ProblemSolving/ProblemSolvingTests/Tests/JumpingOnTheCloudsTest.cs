@@ -1,3 +1,4 @@
+using FluentAssertions;
 using ProblemSolving.Exercises;
 
 namespace ProblemSolvingTests.Tests
@@ -10,17 +11,17 @@ namespace ProblemSolvingTests.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            var result = _jumpingOnTheCloudsExercise.Solve(ParseIntArray("0 0 1 0"), 2);
+            var result = _jumpingOnTheCloudsExercise.Solve(ParseIntList("0 0 1 0 0 1 0"));
 
-            Assert.AreEqual(96, result);
+            result.Should().Be(4);
         }
 
         [TestMethod]
         public void TestMethod2()
         {
-            var result = _jumpingOnTheCloudsExercise.Solve(ParseIntArray("0 0 1 0 0 1 1 0"), 2);
+            var result = _jumpingOnTheCloudsExercise.Solve(ParseIntList("0 0 0 1 0 0"));
 
-            Assert.AreEqual(92, result);
+            result.Should().Be(3);
         }
         
     }

@@ -7,7 +7,7 @@ namespace ProblemSolving
     {
         public static void Main(string[] args)
         {
-            new RepeatedStringExercise().Run();
+            new JumpingOnTheCloudsExercise().Run();
             Console.ReadLine();
         }
     }
