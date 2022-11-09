@@ -52,6 +52,7 @@
     <Compile Include="Exercises\CountingValleysExercise.cs" />
     <Compile Include="Exercises\CutTheSticksExercise.cs" />
     <Compile Include="Exercises\DrawingBookExercise.cs" />
+    <Compile Include="Exercises\EqualizeTheArrayExercise.cs" />
     <Compile Include="Exercises\FindDigitsExercise.cs" />
     <Compile Include="Exercises\FormingAMagicSquareExercise.cs" />
     <Compile Include="Exercises\JumpingOnTheCloudsExercise.cs" />
