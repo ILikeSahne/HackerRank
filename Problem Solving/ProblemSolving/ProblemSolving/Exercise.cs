@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,6 +26,11 @@ namespace ProblemSolving
         protected int[] ParseIntArray(string input)
         {
             return input.Split().Select(int.Parse).ToArray();
+        }
+
+        protected string ReadFile(string path)
+        {
+            return File.ReadAllText($"../../../ProblemSolvingTests/TestCases/{path}");
         }
 
         protected void PrintList<T>(List<T> list)

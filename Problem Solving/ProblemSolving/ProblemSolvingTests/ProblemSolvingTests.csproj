@@ -21,4 +21,8 @@
     <ProjectReference Include="..\ProblemSolving\ProblemSolving.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="TestCases\" />
+  </ItemGroup>
+
 </Project>

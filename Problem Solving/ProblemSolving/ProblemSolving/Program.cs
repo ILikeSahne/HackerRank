@@ -7,7 +7,7 @@ namespace ProblemSolving
     {
         public static void Main(string[] args)
         {
-            new EqualizeTheArrayExercise().Run();
+            new QueensAttack2Exercise().Run();
             Console.ReadLine();
         }
     }

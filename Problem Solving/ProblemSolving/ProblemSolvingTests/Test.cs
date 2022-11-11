@@ -24,6 +24,11 @@ namespace ProblemSolvingTests
             return input.Split().Select(int.Parse).ToArray();
         }
 
+        protected string ReadFile(string path)
+        {
+            return File.ReadAllText($"../../../TestCases/{path}");
+        }
+
         protected void AssertList<T>(List<T> expected, List<T> actual)
         {
             Assert.AreEqual(expected.Count, actual.Count);

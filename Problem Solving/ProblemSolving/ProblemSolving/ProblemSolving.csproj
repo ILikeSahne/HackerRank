@@ -60,6 +60,7 @@
     <Compile Include="Exercises\NonDivisibleSubsetExercise.cs" />
     <Compile Include="Exercises\PickingNumbersExercise.cs" />
     <Compile Include="Exercises\DesignerPDFViewerExercise.cs" />
+    <Compile Include="Exercises\QueensAttack2Exercise.cs" />
     <Compile Include="Exercises\RepeatedStringExercise.cs" />
     <Compile Include="Exercises\SaveThePrisonerExercise.cs" />
     <Compile Include="Exercises\SequenceEquationExercise.cs" />
