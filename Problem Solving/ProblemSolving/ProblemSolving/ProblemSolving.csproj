@@ -66,6 +66,7 @@
     <Compile Include="Exercises\SaveThePrisonerExercise.cs" />
     <Compile Include="Exercises\SequenceEquationExercise.cs" />
     <Compile Include="Exercises\SherlockAndSquaresExercise.cs" />
+    <Compile Include="Exercises\TaumAndBdayExercise.cs" />
     <Compile Include="Exercises\TheHurdleRaceExercise.cs" />
     <Compile Include="Exercises\SockMerchantExercise.cs" />
     <Compile Include="Exercises\UtopianTreeExercise.cs" />
