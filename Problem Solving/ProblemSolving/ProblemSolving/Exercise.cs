@@ -18,6 +18,11 @@ namespace ProblemSolving
             return lines.Select(line => line.Split(' ').Select(int.Parse).ToList()).ToList();
         }
 
+        protected List<string> ParseStringList(string input)
+        {
+            return input.Split().ToList();
+        }
+
         protected List<int> ParseIntList(string input)
         {
             return input.Split().Select(int.Parse).ToList();

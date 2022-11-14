@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FluentAssertions;
 
 namespace ProblemSolvingTests
 {
@@ -12,6 +13,11 @@ namespace ProblemSolvingTests
         {
             var lines = s.Split('\n');
             return lines.Select(line => line.Split(' ').Select(int.Parse).ToList()).ToList();
+        }
+
+        protected List<string> ParseStringList(string input)
+        {
+            return input.Split().ToList();
         }
 
         protected List<int> ParseIntList(string input)
@@ -31,11 +37,11 @@ namespace ProblemSolvingTests
 
         protected void AssertList<T>(List<T> expected, List<T> actual)
         {
-            Assert.AreEqual(expected.Count, actual.Count);
+            expected.Count.Should().Be(actual.Count);
 
             for(var i = 0; i < expected.Count; i++)
             {
-                Assert.AreEqual(expected[i], actual[i]);
+                expected[i].Should().Be(actual[i]);
             }
         }
     }
